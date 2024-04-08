@@ -1,5 +1,22 @@
 {
   "dependencies": {
+    "com.meta.xr.sdk.core": {
+      "version": "63.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.meta.xr.sdk.interaction": {
+      "version": "63.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.meta.xr.simulator": {
       "version": "62.0.0",
       "depth": 0,
@@ -57,7 +74,7 @@
       "depth": 0,
       "source": "builtin",
       "dependencies": {
-        "com.unity.xr.oculus": "4.2.0",
+        "com.unity.xr.oculus": "4.1.2",
         "com.unity.xr.openxr": "1.10.0"
       }
     },
@@ -292,7 +309,7 @@
     },
     "com.unity.xr.openxr": {
       "version": "1.10.0",
-      "depth": 0,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.xr.management": "4.4.0",
